@@ -39,6 +39,12 @@ h1, h2, h3, h4, h5, h6 {
       
 }
 
+.encabezado ul li a:hover {
+    color: #ffd71c;
+
+}
+
+
 .encabezado img {
         height:100%;
         width: 185px;
@@ -78,14 +84,20 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 
 }
-.home__boton {
+.btn-primary {
     font-size: 30px;
     color: aliceblue;
     text-decoration: none;
-    border: 20px inset black;
+    border: 2px inset black;
     background-color: black;
-    line-height: 5;
-    text-align: center;
+
+}
+
+.btn-primary:hover {
+    color: black;
+    border: 2px inset aliceblue;
+    background-color: aliceblue;
+
 }
 /*Seccion de contenido 2 HOME  */
 .home__grid {
@@ -372,6 +384,10 @@ text-align: center;
     
 }
 
+.card-img-top {
+    height: 250px;
+    width: 100%;
+}
 /*Seccion de contenido 1 contacto  */
 .contacto {
     background-image: url(../imagenes/contacto.jpg);
