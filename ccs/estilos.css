@@ -313,18 +313,26 @@ text-align: center;
     font-size: 25px;
     color: #ffd71c;
 }
-
+.servicio__potenciamos--subtitulos:hover {
+    color: aliceblue;
+}
 .servicio__potenciamos--parrafo {
     font-size: 18px;
     color: aliceblue;
     padding: 1rem;
 }
 
+.servicio__potenciamos--parrafo:hover {
+    color: #ffd71c;
+}
+
 .servicio__icono--publicidad {
     height: 100px;
     width: 100px;
     padding: 1rem;
+
 }
+
 .home__icono--diseño {
     height:100px;
     width: 100px;
