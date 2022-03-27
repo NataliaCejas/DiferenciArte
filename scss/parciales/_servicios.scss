@@ -1,0 +1,111 @@
+/*Seccion de contenido 1 servicios  */
+
+.servicios {
+    background-image: url(../imagenes/servicios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    text-align: center;
+    width: 100%;
+    padding: 10rem;
+    line-height: 1.6;   
+}
+     
+
+.servicios__titulos {
+    font-size: 60px;
+    color: $color-secundario;
+    line-height: 2;
+    text-align: center;
+}
+
+/*Seccion de contenido 2 servicios  */
+
+.servicios__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.servicio__potenciamos {
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+    background-color: $color-primario;
+ 
+}
+
+.servicios__potenciamos--titulo {
+    font-size: 45px;
+    color: $color-secundario;
+    line-height: 3;
+}
+
+.servicio__potenciamos--subtitulos {
+    font-size: 25px;
+    color: $color-terciario;
+}
+.servicio__potenciamos--subtitulos:hover {
+    color: $color-secundario;
+}
+.servicio__potenciamos--parrafo {
+    font-size: 18px;
+    color: $color-secundario;
+    padding: 1rem;
+}
+
+.servicio__potenciamos--parrafo:hover {
+    color: $color-terciario;
+}
+
+.servicio__icono--publicidad {
+    height: 100px;
+    width: 100px;
+    padding: 1rem;
+
+}
+
+.home__icono--diseño {
+    height:100px;
+    width: 100px;
+    padding: 1rem;
+}
+.home__icono--CM {
+    height:100px;
+    width: 100px;
+    padding: 1rem;
+
+}
+.home__icono--meli {
+    height:100px;
+    width: 100px;
+    padding: 1rem;
+}
+
+
+.home__icono--brochure {
+    height:100px;
+    width: 100px;
+    padding: 1rem;
+}
+
+
+.home__icono--page {
+    height:100px;
+    width: 130px;
+    padding: 1rem;
+}
+
+.home__potenciamos--subtitulos {
+    font-size: 25px;
+    color: $color-terciario;
+
+}
+.home__potenciamos--parrafo {
+    font-size: 18px;
+    color: $color-secundario;
+    padding: 1rem;
+
+}

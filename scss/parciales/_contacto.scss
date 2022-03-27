@@ -1,0 +1,50 @@
+/*Seccion de contenido 1 contacto  */
+.contacto {
+    background-image: url(../imagenes/contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    text-align: center;
+    width: 100%;
+    padding: 10rem;
+    line-height: 1.6;
+    
+}
+
+.contacto__titulo {
+    font-size: 45px;
+    color: $color-secundario;
+    line-height: 3;
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+}
+
+.contacto__subtitulo {
+    font-size: 30px;
+    color: $color-secundario;   
+    text-align: center;
+}
+
+
+/*Seccion de contenido 2 contacto  */
+.presupuesto {
+    padding: 2rem;
+    text-align: left;
+    line-height: 1.6;
+
+}
+
+
+.contacto__presupuesto--titulo {
+    font-size: 45px;
+    color: $color-primario; 
+}
+
+.contacto__presupuesto--subtitulo{
+    font-size: 25px;
+    color: $color-terciario;
+    padding-bottom: 1rem;
+
+}

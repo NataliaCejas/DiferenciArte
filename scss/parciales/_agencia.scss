@@ -1,0 +1,99 @@
+/*Seccion de contenido 1 agencia digital  */
+.agenciadigital {
+    background-image: url(../imagenes/agencia_digital.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    text-align: center;
+    width: 100%;
+    padding: 10rem;
+    
+}
+.agencia__titulo{
+    font-size: 60px;
+    color: $color-secundario;
+    line-height: 2;
+    text-align: center;
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+
+}
+
+.agencia__subtitulo {
+    font-size: 25px;
+    color: $color-terciario;   
+    text-align: center;
+}
+
+.agencia__parrafo {
+     color: $color-secundario;
+     font-size: 20px;
+     text-align: center;
+     line-height: 5;  
+}
+/*Seccion de contenido 2 agencia digital  */
+.agencia__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.agencia__potenciamos {
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+    background-color: $color-primario;
+ 
+}
+.agencia__potenciamos--titulos {
+    font-size: 45px;
+    color: $color-secundario;
+    line-height: 3;
+}
+.agencia__imagen--num{
+    height: 100px;
+    width: 100px;
+    padding: 1rem;
+}
+.agencia__potenciamos--parrafo {
+    font-size: 18px;
+    color: $color-secundario;
+    padding: 1rem;
+}
+/* Seccion de contenido 3 agencia digital */
+.agencia__socio {
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+    background-color: $color-primario;
+
+}
+.agencia__socio--titulo{
+    font-size: 45px;
+    color: $color-secundario;
+
+}
+.agencia__socio--subtitulo{
+    font-size: 30px;
+    color: $color-secundario;
+    line-height: 2;
+
+}
+.agencia__socio--parrafo{
+    color: $color-terciario;
+    font-size: 20px;
+    text-align: center;
+    padding: 4rem; 
+}
+.agencia__socio--boton{
+    font-size: 20px;
+    color:$color-secundario;
+    text-decoration: none;
+ 
+    line-height: 3;
+    text-align: center;
+}

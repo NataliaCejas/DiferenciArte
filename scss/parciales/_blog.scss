@@ -1,0 +1,19 @@
+/*Seccion de contenido 1 blog  */
+
+
+.blog {
+    background-image: url(../imagenes/blog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    text-align: center;
+    width: 100%;
+    padding: 10rem;
+    line-height: 1.6;
+    
+}
+
+.card-img-top {
+    height: 250px;
+    width: 100%;
+}

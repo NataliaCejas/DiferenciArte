@@ -1,0 +1,132 @@
+
+/*Seccion de contenido 1 HOME  */
+.home {
+    background-image: url(../imagenes/home1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 10rem;
+        
+}
+.home__titulos {
+    font-size: 60px;
+    color: $color-secundario;
+    line-height: 2;
+    text-align: center;
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+
+.home__subtitulo {
+    font-size: 30px;
+    color: $color-secundario;   
+    text-align: center;
+}
+.home__parrafo {
+    font-size: 20px;
+    color: $color-terciario;   
+    text-align: center;
+
+}
+.btn-primary {
+    font-size: 30px;
+    color: $color-secundario;
+    text-decoration: none;
+    border: 2px inset $color-primario;
+    background-color: $color-primario;
+
+}
+
+.btn-primary:hover {
+    color: $color-primario;
+    border: 2px inset $color-secundario;
+    background-color: $color-secundario;
+
+}
+/*Seccion de contenido 2 HOME  */
+.home__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.home__potenciamos {
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+    background-color: $color-primario;
+ 
+}
+.home__potenciamos--titulos {
+    font-size: 45px;
+    color: $color-secundario;
+    line-height: 3;
+}
+.home__icono--diseño {
+    height: 100px;
+    width: 100px;
+    padding: 1rem;
+}
+.home__icono--mkt {
+    height:100px;
+    width: 80px;
+    padding: 1rem;
+}
+.home__icono--comu {
+    height:100px;
+    width: 100px;
+    padding: 1rem;
+}
+.home__potenciamos--subtitulos {
+    font-size: 25px;
+    color: $color-terciario;
+
+}
+.home__potenciamos--parrafo {
+    font-size: 18px;
+    color: $color-secundario;
+    padding: 1rem;
+
+}
+/* Seccion de contenido 3 home */
+.home__esperando {
+
+    background-color: $color-primario; 
+    padding: 2rem;
+
+
+    &--titulo {
+        font-size: 45px;
+        color: $color-secundario;
+        text-align: center;
+        line-height: 3;
+    
+    }
+}
+
+.home__esperando--video { 
+width: 100%;
+height: 100%;
+text-align: center;
+}
