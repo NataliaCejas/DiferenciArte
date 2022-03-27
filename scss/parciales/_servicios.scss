@@ -13,7 +13,7 @@
      
 
 .servicios__titulos {
-    font-size: 60px;
+    font-size: map-get($titulos, tFuente);
     color: $color-secundario;
     line-height: 2;
     text-align: center;
@@ -38,20 +38,20 @@
 }
 
 .servicios__potenciamos--titulo {
-    font-size: 45px;
+    font-size: map-get($titulos, tFuente);
     color: $color-secundario;
     line-height: 3;
 }
 
 .servicio__potenciamos--subtitulos {
-    font-size: 25px;
+    font-size: map-get($subtitulos, tFuente);
     color: $color-terciario;
 }
 .servicio__potenciamos--subtitulos:hover {
     color: $color-secundario;
 }
 .servicio__potenciamos--parrafo {
-    font-size: 18px;
+    font-size: map-get($parrafos, tFuente);
     color: $color-secundario;
     padding: 1rem;
 }
@@ -61,50 +61,44 @@
 }
 
 .servicio__icono--publicidad {
-    height: 100px;
-    width: 100px;
+    @include img(100px, 100px);
     padding: 1rem;
 
 }
 
 .home__icono--diseño {
-    height:100px;
-    width: 100px;
+    @include img(100px, 100px);;
     padding: 1rem;
 }
 .home__icono--CM {
-    height:100px;
-    width: 100px;
+    @include img(100px, 100px);
     padding: 1rem;
 
 }
 .home__icono--meli {
-    height:100px;
-    width: 100px;
+    @include img(100px, 100px);
     padding: 1rem;
 }
 
 
 .home__icono--brochure {
-    height:100px;
-    width: 100px;
+    @include img(100px, 100px);
     padding: 1rem;
 }
 
 
 .home__icono--page {
-    height:100px;
-    width: 130px;
+    @include img(130px, 100px);
     padding: 1rem;
 }
 
 .home__potenciamos--subtitulos {
-    font-size: 25px;
+    font-size: map-get($subtitulos, tFuente);
     color: $color-terciario;
 
 }
 .home__potenciamos--parrafo {
-    font-size: 18px;
+    font-size: map-get($parrafos, tFuente);;
     color: $color-secundario;
     padding: 1rem;
 

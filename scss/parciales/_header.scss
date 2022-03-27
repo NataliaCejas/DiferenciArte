@@ -27,8 +27,7 @@
 }
 
 .encabezado img {
-        height:100%;
-        width: 185px;
+    @include img(185px, 100%);
 }
 
 .encabezado__iconos {

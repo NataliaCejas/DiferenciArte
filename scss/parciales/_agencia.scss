@@ -10,7 +10,7 @@
     
 }
 .agencia__titulo{
-    font-size: 60px;
+    font-size: map-get($titulos, tFuente);
     color: $color-secundario;
     line-height: 2;
     text-align: center;
@@ -22,14 +22,14 @@
 }
 
 .agencia__subtitulo {
-    font-size: 25px;
+    font-size: map-get($subtitulos, tFuente);
     color: $color-terciario;   
     text-align: center;
 }
 
 .agencia__parrafo {
      color: $color-secundario;
-     font-size: 20px;
+     font-size: map-get($parrafos, tFuente);
      text-align: center;
      line-height: 5;  
 }
@@ -55,12 +55,11 @@
     line-height: 3;
 }
 .agencia__imagen--num{
-    height: 100px;
-    width: 100px;
+    @include img(100px, 100px);
     padding: 1rem;
 }
 .agencia__potenciamos--parrafo {
-    font-size: 18px;
+    font-size: map-get($parrafos, tFuente);
     color: $color-secundario;
     padding: 1rem;
 }
@@ -73,24 +72,24 @@
 
 }
 .agencia__socio--titulo{
-    font-size: 45px;
+    font-size: map-get($titulos, tFuente);
     color: $color-secundario;
 
 }
 .agencia__socio--subtitulo{
-    font-size: 30px;
+    font-size: map-get($subtitulos, tFuente);;
     color: $color-secundario;
     line-height: 2;
 
 }
 .agencia__socio--parrafo{
     color: $color-terciario;
-    font-size: 20px;
+    font-size: map-get($parrafos, tFuente);
     text-align: center;
     padding: 4rem; 
 }
 .agencia__socio--boton{
-    font-size: 20px;
+    font-size: map-get($parrafos, tFuente);
     color:$color-secundario;
     text-decoration: none;
  

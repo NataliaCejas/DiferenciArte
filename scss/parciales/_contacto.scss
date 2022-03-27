@@ -12,7 +12,7 @@
 }
 
 .contacto__titulo {
-    font-size: 45px;
+    font-size: map-get($titulos, tFuente);
     color: $color-secundario;
     line-height: 3;
     animation-duration: 5s;
@@ -22,7 +22,7 @@
 }
 
 .contacto__subtitulo {
-    font-size: 30px;
+    font-size: map-get($subtitulos, tFuente);
     color: $color-secundario;   
     text-align: center;
 }
@@ -38,12 +38,12 @@
 
 
 .contacto__presupuesto--titulo {
-    font-size: 45px;
+    font-size: map-get($titulos, tFuente);
     color: $color-primario; 
 }
 
 .contacto__presupuesto--subtitulo{
-    font-size: 25px;
+    font-size: map-get($subtitulos, tFuente);
     color: $color-terciario;
     padding-bottom: 1rem;
 

@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Aleo', serif;
+}
+
+/* mixin*/
+@mixin img($width, $height) { 
+    width:$width ;
+    height: $height;  
+}
+
+
+/* mapas*/
+
+$titulos: (
+   centro: center,
+   tFuente: 50px,
+   1rem: 1rem,
+);
+
+$subtitulos: (
+   centro: center,
+   tFuente: 30px,
+   1rem: 1rem,
+);
+
+$parrafos: (
+   centro: center,
+   tFuente: 20px,
+   1rem: 1rem,
+);

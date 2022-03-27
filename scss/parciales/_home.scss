@@ -6,16 +6,15 @@
     background-size: cover;
     background-position: center;
     text-align: center;
-    width: 100%;
-    height: 100%;
+    @include img(100%, 100%);
     padding: 10rem;
         
 }
 .home__titulos {
-    font-size: 60px;
+    font-size: map-get($titulos, tFuente);
     color: $color-secundario;
     line-height: 2;
-    text-align: center;
+    text-align: map-get($titulos, centro);
     animation-duration: 5s;
     animation-name: aparecer;
     animation-iteration-count: 1;
@@ -38,14 +37,14 @@
 
 
 .home__subtitulo {
-    font-size: 30px;
+    font-size: map-get($subtitulos, tFuente);
     color: $color-secundario;   
-    text-align: center;
+    text-align: map-get($subtitulos, centro);
 }
 .home__parrafo {
-    font-size: 20px;
+    font-size: map-get($parrafos, tFuente);
     color: $color-terciario;   
-    text-align: center;
+    text-align: map-get($parrafos, centro);
 
 }
 .btn-primary {
@@ -79,32 +78,30 @@
  
 }
 .home__potenciamos--titulos {
-    font-size: 45px;
+    font-size: map-get($titulos, tFuente);
     color: $color-secundario;
-    line-height: 3;
+    line-height: 1;
 }
 .home__icono--diseño {
-    height: 100px;
-    width: 100px;
+    @include img(100px, 100px);
     padding: 1rem;
 }
+
 .home__icono--mkt {
-    height:100px;
-    width: 80px;
+    @include img(80px, 100px);
     padding: 1rem;
 }
 .home__icono--comu {
-    height:100px;
-    width: 100px;
+    @include img(100px, 100px);
     padding: 1rem;
 }
 .home__potenciamos--subtitulos {
-    font-size: 25px;
+    font-size: map-get($subtitulos, tFuente);
     color: $color-terciario;
 
 }
 .home__potenciamos--parrafo {
-    font-size: 18px;
+    font-size: map-get($parrafos, tFuente);
     color: $color-secundario;
     padding: 1rem;
 
@@ -117,16 +114,15 @@
 
 
     &--titulo {
-        font-size: 45px;
+        font-size: map-get($titulos, tFuente);
         color: $color-secundario;
-        text-align: center;
+        text-align: map-get($titulos, centro);
         line-height: 3;
     
     }
 }
 
 .home__esperando--video { 
-width: 100%;
-height: 100%;
-text-align: center;
+    @include img(100%, 100%);
+    text-align: center;
 }
