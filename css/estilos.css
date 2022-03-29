@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home__parrafo {
-  font-size: 20px;
+  font-size: 18px;
   color: #ffd71c;
   text-align: center;
 }
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home__potenciamos--parrafo {
-  font-size: 20px;
+  font-size: 18px;
   color: aliceblue;
   padding: 1rem;
 }
@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .agencia__parrafo {
   color: aliceblue;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   line-height: 5;
 }
@@ -270,7 +270,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .agencia__potenciamos--parrafo {
-  font-size: 20px;
+  font-size: 18px;
   color: aliceblue;
   padding: 1rem;
 }
@@ -296,13 +296,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .agencia__socio--parrafo {
   color: #ffd71c;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   padding: 4rem;
 }
 
 .agencia__socio--boton {
-  font-size: 20px;
+  font-size: 18px;
   color: aliceblue;
   text-decoration: none;
   line-height: 3;
@@ -360,7 +360,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .servicio__potenciamos--parrafo {
-  font-size: 20px;
+  font-size: 18px;
   color: aliceblue;
   padding: 1rem;
 }
@@ -411,7 +411,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home__potenciamos--parrafo {
-  font-size: 20px;
+  font-size: 18px;
   color: aliceblue;
   padding: 1rem;
 }
