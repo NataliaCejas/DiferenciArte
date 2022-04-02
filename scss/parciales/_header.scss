@@ -1,36 +1,40 @@
 
 /* Header */
-.encabezado {
+.navbar {
     display: flex;
-    flex-direction: row;
+
+    width: 100%;
     font-size: 20px;
-    background-color: $color-primario;
     padding: 0rem;
-    justify-content: space-evenly ;
-    align-items: center;
+    padding-left: 15%;
     
-    ul {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    gap: 1rem;
- 
-    a {
-    color: $color-secundario;
-    text-decoration: none;
-      
-    &:hover {
-    color: $color-terciario;
-}
-}
-}
 }
 
-.encabezado img {
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+    padding-left: 5%;
+}
+
+
+.navbar-brand img {
     @include img(185px, 100%);
+    padding: 0rem;
+  
 }
 
 .encabezado__iconos {
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
     color: $color-terciario;
-    width: 15%;
+    width: 200%;
+    align-items: center;
+    gap: 1rem;
 } 
+
+.encabezado__iconos:hover{
+    color: $color-secundario;
+}
